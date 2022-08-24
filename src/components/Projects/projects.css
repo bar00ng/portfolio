@@ -1,0 +1,7 @@
+#projects {
+  @apply p-5 lg:px-40 lg:py-20 bg-[#E3E3E3];
+}
+
+.project__title {
+  @apply text-4xl lg:text-5xl tracking-widest font-bold text-center uppercase mb-5;
+}

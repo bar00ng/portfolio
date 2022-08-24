@@ -1,0 +1,7 @@
+.timeline__buttons {
+  @apply mt-2 mb-2;
+}
+
+.timeline__button {
+  @apply mr-5;
+}

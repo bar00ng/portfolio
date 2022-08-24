@@ -1,0 +1,15 @@
+.about__description {
+  text-align: justify;
+}
+
+.about__title {
+  @apply text-4xl lg:text-5xl tracking-widest font-bold text-center lg:text-left;
+}
+
+.about__picture {
+  @apply mb-5 rounded-full m-auto object-cover w-2/3 lg:w-full lg:mr-16;
+}
+
+#about {
+  @apply p-5 lg:px-40 lg:py-20;
+}

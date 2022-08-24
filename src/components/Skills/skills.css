@@ -1,0 +1,19 @@
+#skills {
+  @apply p-5 lg:px-40 lg:py-20;
+}
+
+.skill__title {
+  @apply text-4xl lg:text-5xl tracking-widest font-bold text-center mb-5 lg:mb-10 uppercase;
+}
+
+.skill__cardTitle {
+  @apply font-bold uppercase tracking-wider text-center;
+}
+
+.skill__cardLists {
+  @apply list-disc;
+}
+
+.skill__list {
+  @apply p-3;
+}

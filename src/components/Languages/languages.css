@@ -1,0 +1,19 @@
+#languages {
+  @apply p-5 lg:px-40 lg:py-20 ;
+}
+
+.languages__title {
+  @apply text-4xl lg:text-5xl tracking-widest font-bold text-center mb-5 lg:mb-10 uppercase;
+}
+
+.languages__progressTitle {
+  @apply font-bold text-xl mb-0 align-middle;
+}
+
+.languages__progressBar {
+  @apply lg:mx-10 align-middle;
+}
+
+.languages__progress {
+  @apply mb-5 lg:mb-4;
+}
