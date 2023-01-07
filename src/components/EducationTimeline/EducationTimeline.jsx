@@ -9,7 +9,7 @@ import { education } from "../../data";
 
 export default function EducationTimeline() {
   return (
-    <VerticalTimeline lineColor="#183153">
+    <VerticalTimeline lineColor="white">
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#183153", color: "#fff" }}
@@ -19,9 +19,11 @@ export default function EducationTimeline() {
         iconStyle={{ background: "#183153", color: "#fff" }}
         icon={<School />}
       >
-        <h3 className="vertical-timeline-element-title">STIKOM ITB Bali</h3>
-        <h5 className="vertical-timeline-element-subtitle">University</h5>
-        <p>System Information</p>
+        <h3 className="vertical-timeline-element-title">LITHAN</h3>
+        <h5 className="vertical-timeline-element-subtitle">
+          Bachelor of Technology in Cloud Computing
+        </h5>
+        <p>Digital System Administration</p>
       </VerticalTimelineElement>
 
       {education.map((item) => (

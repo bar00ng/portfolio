@@ -10,7 +10,7 @@ export default function Education() {
       <Container>
         <Row>
           <Col xs={12}>
-            <h1 className="education__title">educations</h1>
+            <h1 className="education__title">education</h1>
           </Col>
           <Col xs={12}>
             <EducationTimeline />

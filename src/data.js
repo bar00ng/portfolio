@@ -6,18 +6,6 @@ export const education = [
     year: "2017 - 2020",
     description: "Software Engineering",
   },
-  {
-    id: 2,
-    title: "Junior High School",
-    subTitle: "Perguruan Advent Depok Timur",
-    year: "2014 - 2017",
-  },
-  {
-    id: 3,
-    title: "Elementary School",
-    subTitle: "Holy Faithful Obedient School",
-    year: "2008 - 2014",
-  },
 ];
 
 export const skills = [
@@ -39,6 +27,28 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: 1434,
+    name: "Income/Outcome Logging",
+    desc: "Income/Outcome Logging application made with Laravel",
+    img: [
+      "logging/listKategori.PNG",
+      "logging/formAddKategori.PNG",
+      "logging/formEditKategori.PNG",
+      "logging/confirmDeleteKategori.PNG",
+      "logging/listSatuan.PNG",
+      "logging/formAddSatuan.PNG",
+      "logging/formEditSatuan.PNG",
+      "logging/confirmDeleteSatuan.PNG",
+      "logging/listProduk.PNG",
+      "logging/formAddProduk.PNG",
+      "logging/formEditProduk.PNG",
+      "logging/pembukuan_1.PNG",
+      "logging/pembukuan_2.PNG",
+    ],
+    link: "https://github.com/bar00ng/pembukuan-app",
+    tag: "Laravel",
+  },
   {
     id: 1,
     name: "E- learning",
@@ -69,7 +79,7 @@ export const projects = [
     name: "Restaurant App",
     desc: "An application that used to order food made with Laravel",
     img: [
-      "restaurant-app/admin_formAdditem.PNG",
+      "restaurant-app/admin_formAddItem.PNG",
       "restaurant-app/admin_landingPage.PNG",
       "restaurant-app/admin_listOrders.PNG",
       "restaurant-app/user_checkoutPage.PNG",
