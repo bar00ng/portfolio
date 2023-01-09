@@ -11,10 +11,10 @@ export default function About() {
       <Container>
         {/* Stack the columns on mobile by making one full-width and the other half-width */}
         <Row>
-          <Col xs={12} md={4}>
+          <Col sm={12} md={4}>
             <Image src={profileImage} fluid="true" className="about__picture" />
           </Col>
-          <Col xs={12} md={8}>
+          <Col sm={12} md={8}>
             <div>
               <h1 className="about__title">ABOUT</h1>
 
@@ -23,12 +23,13 @@ export default function About() {
                 me <b>Dan</b>. I was born in 3<sup className="z-10">rd</sup>{" "}
                 October 2002. Currently, I live in Jakarta. I really like{" "}
                 <b>programming</b>. I've learn <b>programming</b> since high
-                school. I really looking forward to dive deeper into <b>IT</b> world.
+                school. I really looking forward to dive deeper into <b>IT</b>{" "}
+                world.
               </p>
               <p className="about__description">
                 <b>When I'm not in front of my computer screen</b>. I'm probably
-                playing <b>basketballs</b>, or learning to play <b>guitar</b> so I can be like
-                John Mayer.
+                playing <b>basketballs</b>, or learning to play <b>guitar</b> so
+                I can be like John Mayer.
               </p>
             </div>
           </Col>

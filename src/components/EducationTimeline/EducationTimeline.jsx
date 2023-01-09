@@ -15,7 +15,7 @@ export default function EducationTimeline() {
         contentStyle={{ background: "#183153", color: "#fff" }}
         dateClassName={"text-black"}
         contentArrowStyle={{ borderRight: "7px solid  #183153" }}
-        date="2020 - present"
+        date="2021 - present"
         iconStyle={{ background: "#183153", color: "#fff" }}
         icon={<School />}
       >

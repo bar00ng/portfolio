@@ -1,5 +1,12 @@
 export const education = [
   {
+    id: 12,
+    title: "Bachelors of System Information",
+    subTitle: "STIKOM ITB Bali",
+    year: "2020 - Present",
+    description: "Software Engineering",
+  },
+  {
     id: 1,
     title: "Vocational High School",
     subTitle: "SMKN 01 Cibinong",
