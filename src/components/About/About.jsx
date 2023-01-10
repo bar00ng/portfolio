@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import profileImage from "./../../img/daniel.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./about.css";
 
 export default function About() {
@@ -11,13 +12,12 @@ export default function About() {
       <Container>
         {/* Stack the columns on mobile by making one full-width and the other half-width */}
         <Row>
-          <Col sm={12} md={4}>
+          <Col md={12} lg={4}>
             <Image src={profileImage} fluid="true" className="about__picture" />
           </Col>
-          <Col sm={12} md={8}>
+          <Col md={12} lg={8}>
             <div>
               <h1 className="about__title">ABOUT</h1>
-
               <p className="about__description">
                 My name is <b>Daniel Yesayas Junior Wattimury</b>. People call
                 me <b>Dan</b>. I was born in 3<sup className="z-10">rd</sup>{" "}
@@ -27,9 +27,20 @@ export default function About() {
                 world.
               </p>
               <p className="about__description">
-                <b>When I'm not in front of my computer screen</b>. I'm probably
-                playing <b>basketballs</b>, or learning to play <b>guitar</b> so
-                I can be like John Mayer.
+                Mostly in my spare time, I learn to play <b>guitar</b> and play
+                <b> basketball.</b> I really interested in{" "}
+                <b>Full Stack Programming,</b> I spend most of my spare time
+                learning about it.{" "}
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="about__projects"
+                >
+                  Check all projects I've done!!
+                </Link>
               </p>
             </div>
           </Col>

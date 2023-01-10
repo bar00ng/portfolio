@@ -1,5 +1,17 @@
+#about {
+  @apply mt-16 md:mt-10;
+}
+
 .about__description {
   text-align: justify;
+}
+
+.about__projects {
+  @apply underline text-red-600 cursor-pointer;
+}
+
+.about__projects:hover {
+  @apply underline text-red-900 cursor-pointer;
 }
 
 .about__title {
