@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 1434,
     name: "Income/ Expenses Logging",
-    desc: "Income/Outcome Logging application made with Laravel",
+    desc: "Income/ Expenses Logging application made with Laravel",
     img: [
       "logging/listKategori.PNG",
       "logging/formAddKategori.PNG",
@@ -59,7 +59,7 @@ export const projects = [
   {
     id: 1,
     name: "Learning Management System (LMS)",
-    desc: "A simple version of LMST application made with Laravel",
+    desc: "A simple version of LMS application made with Laravel",
     img: [
       "e-learning/admin_formAddClass.PNG",
       "e-learning/admin_formAddStudent_1.PNG",
