@@ -4,7 +4,7 @@ export const education = [
     title: "Bachelors of System Information",
     subTitle: "STIKOM ITB Bali",
     year: "2020 - Present",
-    description: "Software Engineering",
+    description: "System Information",
   },
   {
     id: 1,
@@ -36,7 +36,7 @@ export const skills = [
 export const projects = [
   {
     id: 1434,
-    name: "Income/Outcome Logging",
+    name: "Income/ Expenses Logging",
     desc: "Income/Outcome Logging application made with Laravel",
     img: [
       "logging/listKategori.PNG",
@@ -58,8 +58,8 @@ export const projects = [
   },
   {
     id: 1,
-    name: "E- learning",
-    desc: "A simple version of E- learning application made with Laravel",
+    name: "Learning Management System (LMS)",
+    desc: "A simple version of LMST application made with Laravel",
     img: [
       "e-learning/admin_formAddClass.PNG",
       "e-learning/admin_formAddStudent_1.PNG",
